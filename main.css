@@ -1,0 +1,166 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.customers .text-part {
+    text-align: center;
+}
+
+.customers .text-part .title {
+    font-size: 38px;
+    font-weight: 400;
+    color: #100B2B;
+
+}
+
+.customers .text-part .text {
+    color: #655B6E;
+    font-size: 17px;
+    font-weight: 400;
+
+
+}
+/* first */
+.customers .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+}
+
+.customers .wrapper .first-part {
+
+    display: flex;
+    align-items: center;
+    gap: 174px;
+
+}
+
+.customers .left-cust .title {
+
+    color: #100B2B;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.customers .left-cust .text {
+
+    color: #655B6E;
+    font-size: 17px;
+    font-weight: 400;
+    width: 450px;
+}
+/* second */
+.wrapper .second-part {
+display: flex;
+gap: 128px;
+align-items: center;
+
+}
+.wrapper .right-show .title{
+    font-size: 38px;
+    font-weight: 400;
+    color: #100B2B;
+
+}
+.wrapper .right-show .text{
+    color: #655B6E;
+    font-size: 17px;
+    font-weight: 400;
+    width: 485px;
+
+
+}
+/* tird */
+.wrapper .third-part {
+display: flex;
+gap: 128px;
+align-items: center;
+
+}
+.wrapper .left-human .title{
+    font-size: 38px;
+    font-weight: 400;
+    color: #100B2B;
+
+}
+.wrapper .left-human .text{
+    color: #655B6E;
+    font-size: 17px;
+    font-weight: 400;
+    width: 485px;
+
+
+}
+/* footer-hold */
+
+
+
+.foot-bef .hold-foot {
+background-color: #100B2B;
+max-width: 1120px;
+border-radius: 16px;
+background-image: url(images/Group.png);
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.foot-bef .hold-foot .title{
+width: 435px;
+font-size: 38px;
+color: #FEF5E4;
+font-weight: 400;
+}
+.foot-bef .hold-foot .btn-foot{
+width: 274px;
+border-radius: 4px;
+background-color: #6140FF;
+padding: 20px 30px;
+color: #FEF5E4;
+margin: 24px 17px 0 0;
+
+}
+.foot-bef .hold-foot .btn-foot:hover{
+background-color: #15065f;
+border-color: #15065f;
+transition: 0.7s;
+
+
+
+}
+
+.foot-bef .hold-foot .text{
+margin-bottom: 68px;
+
+}
+/* footer */
+
+.footer .container{
+display: flex;
+gap: 107px;
+margin-top: 125px;
+
+}
+.footer .left-content{
+width: 400px;
+
+}
+
+.footer .right-content{
+display: flex;
+gap: 168px;
+/* padding-top: 23px; */
+}
+.footer .right-content .footer-text{
+color: #000;
+
+}
+.footer .left-content .text-footer{
+padding-top: 31px ;
+
+}
+
